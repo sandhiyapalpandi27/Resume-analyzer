@@ -1,16 +1,13 @@
-# Resume-analyzer
-A resume analyzer application that evaluates uploaded resumes and provides useful insights and analysis.
+# Resume Analyzer
 
 A simple Resume Analyzer web application built using Python and Streamlit.
 
 ## Features
 
-- Upload a resume in PDF format
-- Extract text from the resume
+- Upload resume in PDF format
+- Extract text from resume
 - Analyze resume content
-- Display extracted resume information
 - Simple and user-friendly interface
-- check your ATS score
 
 ## Technologies Used
 
@@ -18,11 +15,9 @@ A simple Resume Analyzer web application built using Python and Streamlit.
 - Streamlit
 - pdfplumber
 
-## Project Structure
+## How to Run
 
-```text
-Resume-analyzer/
-│
-├── main.py
-├── requirements.txt
-└── README.md
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
